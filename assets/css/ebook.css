@@ -379,7 +379,13 @@ section,
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
+.featured-services .mb-60 {
+  margin-bottom: 60px;
+}
+
 .featured-services .service-item {
+  background-color: var(--secondary-color);
+  border-bottom: 2px solid var(--accent-color);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   width: 100%;
@@ -410,7 +416,8 @@ section,
 
 .featured-services .service-item:hover {
   transform: translateY(-10px);
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-bottom: transparent;
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.2);
 }
 
