@@ -519,7 +519,9 @@ section,
 }
 
 .about-2 .content img{
-  width: 90%;
+  max-width: 70% !important;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 8px rgb(0, 0, 0, 0.8));
 }
 
 .about-2 .content-subtitle {
